@@ -10,7 +10,7 @@ type GenreBadgeProps = {
 
 export const GenreBadgeComponent: FC<GenreBadgeProps> = ({genre}) => {
     return (
-        <Link href={`/public?genreId=${genre.id}`}>
+        <Link href={`/?genreId=${genre.id}`}>
       <span
           className="
           inline-block
